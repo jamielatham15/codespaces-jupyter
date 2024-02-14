@@ -1,4 +1,4 @@
-Order ID,Order Date,CustomerName,State,City
+order_id,order_date,customer_name,state,city
 B-25601,01-04-2018,Bharat,Gujarat,Ahmedabad
 B-25602,01-04-2018,Pearl,Maharashtra,Pune
 B-25603,03-04-2018,Jahan,Madhya Pradesh,Bhopal
