@@ -3,7 +3,7 @@
 Description:
 - You have data about an e-commerce site
 - The 'sales_target' table contains the monthly target for each product category
-- The 'orders' table contains records of each order
+- The 'orders' table contains data about each order
 - The 'order_details' table contains details about the order such as purchased items, amounts, and price.
 Run the queries below to see a sample of each dataset
 */
