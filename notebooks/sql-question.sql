@@ -35,9 +35,11 @@ with sales_by_category as (
 )
 
 select
-cs.year,
-cs.month, 
-ROUND(CAST((total_sales * 100) / target - 100 as NUMERIC), 2) as perc_above_target
+    cs.year,
+    cs.month, 
+    total_sales,
+    target,
+    ROUND(CAST((total_sales * 100) / target - 100 as NUMERIC), 2) as perc_above_target
 from sales_by_category cs
 inner join sales_target st on cs.year = st.year and cs.month = st.month
 where total_sales > target
