@@ -14,7 +14,8 @@
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python",
-        "cmoog.sqlnotebook"
+        "cmoog.sqlnotebook",
+        "ms-vsliveshare.vsliveshare"
       ]
     }
   }
