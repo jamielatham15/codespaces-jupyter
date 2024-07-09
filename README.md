@@ -13,5 +13,8 @@ Please read these instructions before the call to ensure a smooth experience dur
 3. A popup will appear in the bottom right-hand corner. Click "Continue as Anonymous."
 4. Press Enter to accept the generic sign-in name.
 5. Navigate to `notebooks/sql-test.sql` to begin the first challenge.
+6. Move to `notebooks/python-test.sql` when you have ready.
+
+The total time to solve the challenges is 1 hour.
 
 Good luck!
