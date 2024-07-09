@@ -1,7 +1,17 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Candidate Instructions
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+The technical interview will assess your skills in SQL and Python using realistic data.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+We will use GitHub Codespaces to provide a live shared VSCode-like coding environment that opens in your browser. At the start of the meeting, we will share a link for you to access this environment.
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+There will be one challenge for SQL and one for Python, both hosted in Jupyter notebooks.
+
+Please read these instructions before the call to ensure a smooth experience during the interview.
+
+1. At the start of the meeting, we will share a link to a GitHub Codespaces environment. Follow the link.
+2. Allow the environment to load and then click "Continue in Web."
+3. A popup will appear in the bottom right-hand corner. Click "Continue as Anonymous."
+4. Press Enter to accept the generic sign-in name.
+5. Navigate to `notebooks/sql-test.sql` to begin the first challenge.
+
+Good luck!
