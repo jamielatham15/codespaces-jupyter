@@ -2,17 +2,9 @@
 # SQL Challenge 
 Description:
 - You have data about an e-commerce site
-- The 'sales_target' table contains the monthly target for each product category
-- The 'orders' table contains data about each order
 - The 'order_details' table contains details about the order such as purchased items, amounts, and price.
 Run the queries below to see a sample of each dataset
 */
-
-SELECT * from sales_target LIMIT 10;
-
-SELECT * from orders LIMIT 10;
-
-SELECT * from order_details LIMIT 10;
 
 /*markdown
 ## Identifying Frequently Purchased Sub-Category Pairs
@@ -36,9 +28,7 @@ Saree	         T-shirt	    90
 Electronic Games Saree	        88
 */
 
-/* code here */
-
-
+SELECT * from order_details LIMIT 10;
 
 /* code here */
 
