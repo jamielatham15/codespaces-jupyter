@@ -15,53 +15,38 @@ SELECT * from orders LIMIT 10;
 SELECT * from order_details LIMIT 10;
 
 /*markdown
-### Write a query to find customers who have made consecutive purchases. 
-### For each such customer, provide their name, the order dates of the consecutive purchases, and the number of days between these orders.
-*/
-
-/* EXPECTED OUTPUT
-customer_name	order_date	next_order_date	days_between
-Shikhar	        2019-01-04	2019-01-05	       1
-Shreya	        2019-01-17	2019-01-18	       1
-*/
-
-WITH consecutive_orders AS (
-    SELECT 
-        o.customer_name,
-        o.order_date::date AS order_date,
-        LEAD(o.order_date::date) OVER (PARTITION BY o.customer_name ORDER BY o.order_date::date) AS next_order_date
-    FROM 
-        orders o
-)
-SELECT 
-    customer_name,
-    order_date,
-    next_order_date,
-     next_order_date - order_date AS days_between
-FROM 
-    consecutive_orders
-WHERE 
-    next_order_date IS NOT NULL
-AND 
-    next_order_date - order_date = 1
-ORDER BY 
-    customer_name, order_date;
-
-/*markdown
-### Step-by-Step Explanation
-
-1. **WITH clause (`consecutive_orders`):**
-   - **Partition by `customer_name`:** Groups orders by each customer.
-   - **Order by `order_date`:** Orders the purchases of each customer by date.
-   - **LEAD function:** Fetches the next order date for each customer.
-
-2. **Main SELECT query:**
-   - **Filter results:** Ensures there is a next order date and the days between consecutive orders is 1.
-   - **ORDER BY:** Orders the final output by `customer_name` and `order_date`.
-
-This solution effectively uses window functions and CTEs to identify customers who made purchases on consecutive days within the specified month.
+## Identifying Frequently Purchased Sub-Category Pairs
 */
 
 /*markdown
-
+##### Write a query to find pairs of sub-categories that are frequently bought together in the same order. For each pair, provide the sub-categories and the number of times they were purchased together. Ensure the pairs are unique (i.e., "A-B" is considered the same as "B-A").
 */
+
+/* Expected Result
+sub_category_1	sub_category_2	pair_count
+Hankerchief	     Stole	        242
+Hankerchief	     Saree	        220
+Saree	         Stole	        218
+Phones	         Saree	        106
+Electronic Games Hankerchief	96
+Saree	         Skirt	        96
+Printers	     Saree	        94
+Hankerchief	     Skirt	        92
+Saree	         T-shirt	    90
+Electronic Games Saree	        88
+*/
+
+/* code here */
+
+
+
+/* code here */
+
+
+
+/* code here */
+
+
+
+/* code here */
+
