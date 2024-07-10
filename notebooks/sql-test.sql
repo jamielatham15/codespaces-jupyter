@@ -30,7 +30,29 @@ Electronic Games Saree	        88
 
 SELECT * from order_details LIMIT 10;
 
-/* code here */
+WITH T AS (
+    SELECT 
+    A.order_id, 
+    -- A.category AS category_1, 
+    A.sub_category AS sub_category_1, 
+    -- B.category AS category_2, 
+    B.sub_category AS sub_category_2
+    FROM 
+    order_details A
+    JOIN
+    order_details B
+    ON A.order_id = B.order_id
+)
+
+SELECT 
+sub_category_1,
+sub_category_2,
+COUNT(*) AS pair_count
+FROM T
+WHERE sub_category_1 != sub_category_2
+GROUP BY sub_category_1, sub_category_2
+ORDER BY pair_count DESC
+
 
 
 
