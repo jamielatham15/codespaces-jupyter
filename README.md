@@ -1,20 +1,19 @@
 # Candidate Instructions
 
-The technical interview will assess your skills in SQL and Python using realistic data.
+Congratulations on progressing to the technical challenge part of your interview! 
 
-We will use GitHub Codespaces to provide a live shared VSCode-like coding environment that opens in your browser. At the start of the meeting, we will share a link for you to access this environment.
+We look forward to meeting you at the interview.
 
-There will be one challenge for SQL and one for Python, both hosted in Jupyter notebooks.
+For this technical challenge, please install the following software before the interview starts:
+- VSCode (https://code.visualstudio.com/)
+- The VS Live Share extension (https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+ 
+Have VScode open and ready before the interview starts.
 
-Please read these instructions before the call to ensure a smooth experience during the interview.
+Once the interview starts, please share your screen via Teams. 
 
-1. At the start of the meeting, we will share a link to a GitHub Codespaces environment. Follow the link.
-2. Allow the environment to load and then click "Continue in Web."
-3. A popup will appear in the bottom right-hand corner. Click "Continue as Anonymous."
-4. Press Enter to accept the generic sign-in name.
-5. Navigate to `notebooks/sql-test.sql` to begin the first challenge.
-6. Move to `notebooks/python-test.sql` when you have ready.
+We will then give instructions on how to begin the live coding session.
 
-The total time to solve the challenges is 1 hour.
+If you face any challenges with the above, please let us know so we can arrange an alternative solution.
 
 Good luck!
