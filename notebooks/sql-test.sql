@@ -1,3 +1,19 @@
+SELECT 
+
+sub_category_1, sub_category_2
+count(*) AS pair_count
+
+FROM 
+
+subCategoryPairs
+
+GROUP BY
+ 
+sub_category_1, sub_category_2
+
+ORDER BY
+ pair_count DESC;
+
 /*markdown
 # SQL Challenge 
 Description:
@@ -34,9 +50,25 @@ SELECT * from order_details LIMIT 10;
 
 
 
-/* code here */
-
-
 
 /* code here */
 
+
+
+/* code here */
+
+SELECT 
+
+sub_category_1, sub_category_2
+count(*) AS pair_count
+
+FROM 
+
+placeHolderTable
+
+GROUP BY
+ 
+sub_category_1, sub_category_2
+
+ORDER BY
+ pair_count DESC;
