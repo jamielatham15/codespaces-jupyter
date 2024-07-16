@@ -1,4 +1,4 @@
-order_id,amount,profit,quantity,category,sub-category
+order_id,amount,profit,quantity,category,sub_category
 B-25601,1275.0,-1148.0,7,Furniture,Bookcases
 B-25601,66.0,-12.0,5,Clothing,Stole
 B-25601,8.0,-2.0,3,Clothing,Hankerchief
